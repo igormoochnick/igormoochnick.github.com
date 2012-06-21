@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>CloudExpo 2012 update</title>
+
+    <meta name="author" content="Igor Moochnick" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div id="cloudy-day" class="step" data-x="0" data-y="0"  data-scale="50">
+        <img src="http://distilleryimage9.s3.amazonaws.com/d814bd46b5b711e1b00112313800c5e4_7.jpg" />
+    </div>
+
+    <div id="parking" class="step" data-x="0" data-y="0" data-scale="1">
+        <img src="http://distilleryimage0.s3.amazonaws.com/8335a5b2b42511e1989612313815112c_7.jpg" />
+    </div>
+
+    <div id="times-square" class="step" data-x="-5000" data-y="0" data-scale="1">
+        <img src="http://distilleryimage9.s3.amazonaws.com/7b16b738b43c11e1b2fe1231380205bf_7.jpg" />
+    </div>
+
+    <div id="expo-floor" class="step" data-x="-10000" data-y="0">
+        <img src="http://distilleryimage3.s3.amazonaws.com/482e3342b42711e1b00112313800c5e4_7.jpg" />
+    </div>
+
+    <div id="roster" class="step" data-x="-10055" data-y="18" data-scale="0.04">
+        <img src="http://distilleryimage7.s3.amazonaws.com/8a42c98cb42c11e19e4a12313813ffc0_7.jpg" />
+    </div>
+
+    <div id="ny1" class="step" data-x="0" data-y="0"  data-scale="50">
+        <img src="http://distilleryimage9.s3.amazonaws.com/d814bd46b5b711e1b00112313800c5e4_7.jpg" />
+    </div>
+
+    <div id="rightscale-global" class="step" data-x="150000" data-y="150000" data-scale="1000">
+        <img src="imgs/rightscale-global-cloud-platform.png" />
+    </div>
+
+    <div id="Div3" class="step" data-x="0" data-y="-800000" data-rotate-x="-90" data-scale="1000">
+        <img src="imgs/multi-cloud-spread.png" />
+    </div>
+
+    <div id="Div4" class="step" data-x="-50000" data-y="-800000" data-rotate-x="-45" data-scale="100">
+        <img src="http://igorshare.files.wordpress.com/2012/06/image_thumb.png?w=980&h=737" />
+    </div>
+
+    <div id="igor-race" class="step" data-x="-1000" data-y="-800000" data-rotate-x="-45" data-scale="5">
+        <span style="color: maroon; font-weight: bold;" >Strap your seatbelts!</span>
+        <img src="imgs/igor-race.jpg" width="1000px" />
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+    if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    }
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
